@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="D-Money Api Rest Assured Automation">
+    <test name="Admin Login And Create Customer,Agents API">
+        <classes>
+            <class name="testRunner.UserTestRunner"/>
+        </classes>
+    </test>
+    <test name="Transaction API between Customers,Agents and Merchant">
+        <classes>
+            <class name="testRunner.TransactionTestRunner"/>
+        </classes>
+    </test>
+</suite>
